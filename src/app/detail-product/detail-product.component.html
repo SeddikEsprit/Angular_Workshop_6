@@ -1,0 +1,14 @@
+
+<div class="col-md-3">
+  <div class="card" style="width: 18rem;">
+    <img src="../../assets/tshirt.jpg"class="card-img-top"alt="tishirtimage">
+    <div class="card-body">
+      <h5 class="card-title">ID:{{product.id}}---{{product.title}}</h5>
+      <h5 class="card-text">price:{{product.price}}  $--quantity:{{product.quantity}}</h5>
+      <button class="btn btn-outline-warning"(click)="deleteProduct([product.id])"> supprimer</button>
+      <button class="btn btn-outline-warning"(click)="updateProduct([product.id])"> modifier</button>
+      </div>
+  </div>
+  <br>
+</div>
+

@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "title": "product100",
+      "price": 200000,
+      "quantity": 30000000,
+      "like": 0
+    },
+    {
+      "id": 3,
+      "title": "product3",
+      "price": 50,
+      "quantity": 100,
+      "like": 0
+    },
+    {
+      "id": 5,
+      "title": "product10",
+      "price": 2000,
+      "quantity": 2000
+    },
+    {
+      "id": 6,
+      "title": "product-6",
+      "price": 30,
+      "quantity": 100
+    },
+    {
+      "closed": true,
+      "_parentage": null,
+      "_finalizers": null,
+      "isStopped": true,
+      "destination": null,
+      "id": 20,
+      "title": "product50",
+      "price": 10000,
+      "quantity": 100
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
